@@ -1,24 +1,35 @@
-# README
+ENTREZ OU COPIEZ LES COMMANDES SUIVANTES DANS VOTRE TERMINAL : 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+  Pour lancer le programme :
 
-* Ruby version
+  * git clone https://github.com/Maxx-N/s4_j4_rails_gossip_project.git
 
-* System dependencies
+  * cd s4_j4_freedoc
 
-* Configuration
+  * bundle install
 
-* Database creation
+  * rails db:migrate
 
-* Database initialization
+  * rails db:seed 
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
+  Pour ouvrir le fichier seeds.rb :
 
-* ...
+  * open db/seeds.rb
+
+
+
+  Pour jouer avec les bases de données : 
+
+  * rails console
+
+  * (tapez ensuite les commandes que vous voulez dans la console rails)
+
+  * exit (pour quitter la console)
+
+
+
+
+
