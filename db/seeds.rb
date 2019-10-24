@@ -20,7 +20,7 @@
 
 # On affiche la liste des utilisateurs (en limitant le nombre de colonnes) :
   puts "\n"
-  puts "10 utilisateurs ont été ajouté(e)s :"
+  puts "10 utilisateurs(trices) ont été ajouté(e)s :"
   puts "\n"
   tp User.all, :first_name, :last_name, :email, :age
 
